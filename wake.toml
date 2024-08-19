@@ -1,0 +1,8 @@
+[compiler.solc]
+exclude_paths = ["source/node_modules"]
+include_paths = ["source/node_modules"]
+target_version = "0.8.10"
+
+[compiler.solc.optimizer]
+enabled = true
+runs = 100000
